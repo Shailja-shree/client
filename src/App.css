@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* Vendor prefixes and fixes *
+/* Other fixes */
+a {
+  -webkit-tap-highlight-color: transparent; /* To remove tap highlight in Safari */
+}
+
+/* Meta tag for theme color */
+meta[name=theme-color] {
+  content: #282c34; /* Theme color */
+}
